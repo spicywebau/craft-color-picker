@@ -1,0 +1,53 @@
+.sw {
+
+	&_color-picker {
+
+		&_brisat {
+			position: relative;
+			overflow: hidden;
+			padding-top: (190 / 260) * 100%;
+			cursor: crosshair;
+			background-image:
+				linear-gradient(to right, white, rgba(white, 0)),
+				linear-gradient(to top, black, rgba(black, 0));
+
+			&_pointer {
+				position: absolute;
+				width: 16px;
+				height: 16px;
+				margin-top: -8px;
+				margin-left: -8px;
+				border: 2px solid white;
+
+				&.inverted {
+					border-color: black;
+				}
+			}
+		}
+
+		&_hue {
+			position: relative;
+			height: 16px;
+			background-image: linear-gradient(to right,
+				rgb(255, 0, 0),
+				rgb(255, 255, 0),
+				rgb(0, 255, 0),
+				rgb(0, 255, 255),
+				rgb(0, 0, 255),
+				rgb(255, 0, 255),
+				rgb(255, 0, 0)
+			);
+
+			&_pointer {
+				position: absolute;
+				top: 0;
+				width: 16px;
+				height: 16px;
+				margin-left: -8px;
+				border: 1px solid rgba(black, 0.2);
+				background-clip: content-box;
+				background-color: white;
+			}
+		}
+	}
+}
