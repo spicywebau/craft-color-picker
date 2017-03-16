@@ -45,7 +45,7 @@ class ColorPickerPlugin extends BasePlugin
 
 	protected function includeResources()
 	{
-		craft()->templates->includeCssResource('spicylanding/main.css');
-		craft()->templates->includeJsResource('spicylanding/redactor/inlinestyle.js');
+		craft()->templates->includeJsResource('colorpicker/polyfill.js');
+		craft()->templates->includeJsResource('colorpicker/main.js');
 	}
 }

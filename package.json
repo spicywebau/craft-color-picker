@@ -1,0 +1,35 @@
+{
+  "name": "craft-color-picker",
+  "version": "1.0.0",
+  "description": "Improves the color field type with a better color picker tool for Craft CMS",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.24.0",
+    "css-loader": "^0.27.3",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.14.1",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spicywebau/craft-color-picker.git"
+  },
+  "keywords": [
+    "craftcms",
+    "craft-plugin",
+    "color-picker"
+  ],
+  "author": "Spicy Web <info@spicyweb.com.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spicywebau/craft-color-picker/issues"
+  },
+  "homepage": "https://github.com/spicywebau/craft-color-picker#readme"
+}

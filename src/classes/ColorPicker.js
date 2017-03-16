@@ -1,5 +1,6 @@
 import $ from 'jquery'
 import EventEmitter from './EventEmitter'
+import '../styles/ColorPicker.scss'
 
 const template = `
 	<div class="sw_color-picker">
@@ -16,6 +17,7 @@ export default class ColorPicker extends EventEmitter
 {
 	constructor()
 	{
+		super()
 		this.$element = $(template)
 	}
 }
