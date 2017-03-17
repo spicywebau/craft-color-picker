@@ -45,4 +45,8 @@ module.exports = {
 			},
 		],
 	},
+	node: {
+		// @see https://github.com/webpack-contrib/css-loader/issues/454
+		Buffer: false,
+	},
 }

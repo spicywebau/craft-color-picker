@@ -6,12 +6,12 @@ Garnish.$bod.on('click', 'input[type="color"]', e =>
 {
 	e.preventDefault()
 
-	const $input = $(this)
+	const $input = $(e.target)
 	let modal = $input.data('color-modal')
 
 	if(!modal)
 	{
-		modal = new ColorModal()
+		modal = new ColorModal($input)
 		$input.data('color-modal', modal)
 	}
 
